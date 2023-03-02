@@ -55,7 +55,7 @@ class Div(BinaryOperation):
         return float(self.left.eval()) / float(self.right.eval())
     
 
-class Mode(BinaryOperation): 
+class Mod(BinaryOperation): 
     
     def eval(self):
         return float(self.left.eval()) % float(self.right.eval())
