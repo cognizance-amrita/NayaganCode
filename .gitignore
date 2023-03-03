@@ -1,3 +1,10 @@
 .vscode/
 venv/
 tests/
+nayagan/__pycache__/
+nayagan/abstract_syntax_tree/__pycache__/
+nayagan/parser/__pycache__/
+
+
+# to be removed once tokens are implemented
+token.yml

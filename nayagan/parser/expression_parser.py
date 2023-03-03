@@ -1,6 +1,6 @@
 from loguru import logger
 
-from ..abstract_syntax_tree.operations import UnarySub, UnarySum
+from abstract_syntax_tree.operations import UnarySub, UnarySum
 
 class ExpressionParser:
     """

@@ -3,8 +3,8 @@ from typing import List
 from loguru import logger
 from rply import ParserGenerator
 
-from ..abstract_syntax_tree.base import Expression, Print
-from ..abstract_syntax_tree.blocks import MainBlock, ProgramBlock
+from abstract_syntax_tree.base import Expression, Print
+from abstract_syntax_tree.blocks import MainBlock, ProgramBlock
 from .atom_parser import AtomParser
 from .expression_parser import ExpressionParser
 from .flow_parser import ConditionalParser, LoopParser

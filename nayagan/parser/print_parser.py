@@ -1,6 +1,6 @@
 from loguru import logger
 
-from ..abstract_syntax_tree.blocks import PrintBlock
+from abstract_syntax_tree.blocks import PrintBlock
 
 class PrintParser:
     

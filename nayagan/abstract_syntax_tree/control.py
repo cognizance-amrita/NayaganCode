@@ -1,5 +1,5 @@
-from ..helpers import __functions__, __vars__
-from ..exceptions import BreakException, ReturnException
+from helpers import __functions__, __vars__
+from exceptions import BreakException, ReturnException
 from .base import Node, Word
 
 

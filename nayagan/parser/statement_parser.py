@@ -1,7 +1,7 @@
 from loguru import logger
 
-from ..abstract_syntax_tree.base import Print
-from ..abstract_syntax_tree.blocks import StatementsBlock
+from abstract_syntax_tree.base import Print
+from abstract_syntax_tree.blocks import StatementsBlock
 
 
 class StatementParser:
