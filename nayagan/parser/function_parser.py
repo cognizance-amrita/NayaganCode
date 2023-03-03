@@ -1,7 +1,7 @@
 from loguru import logger
 
-from ..abstract_syntax_tree.blocks import FunctionsBlock
-from ..abstract_syntax_tree.control import FuncCall, FuncCallAssign, FuncReturn, Function
+from abstract_syntax_tree.blocks import FunctionsBlock
+from abstract_syntax_tree.control import FuncCall, FuncCallAssign, FuncReturn, Function
 
 
 class FunctionParser:

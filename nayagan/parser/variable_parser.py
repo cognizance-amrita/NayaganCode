@@ -1,6 +1,6 @@
 from loguru import logger
 
-from ..abstract_syntax_tree.base import VarAssign, VarDeclare
+from abstract_syntax_tree.base import VarAssign, VarDeclare
 
 
 class VariableParser:

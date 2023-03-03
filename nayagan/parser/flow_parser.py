@@ -1,4 +1,4 @@
-from ..abstract_syntax_tree.control import (
+from abstract_syntax_tree.control import (
     Break,
     ForLoop,
     IfCondition,

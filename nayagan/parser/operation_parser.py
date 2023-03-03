@@ -1,4 +1,4 @@
-from ..abstract_syntax_tree.operations import (
+from abstract_syntax_tree.operations import (
     Div,
     LessThan,
     LessThanEqual,
@@ -41,13 +41,13 @@ class BinaryMathOperationsParser:
             return Mod
         
         # Todo: Add support 
-        @pg.production("mathop : POW")
-        def binary_pow(p):
-            return Power
+        # @pg.production("mathop : POW")
+        # def binary_pow(p):
+        #     return Power
         
-        @pg.production("mathop : FLRDIV")
-        def binary_floor_div(p):
-            return FloorDiv
+        # @pg.production("mathop : FLRDIV")
+        # def binary_floor_div(p):
+        #     return FloorDiv
 
 #todo : change to compare operations
 class BinaryLogicalOperationsParser:
@@ -79,20 +79,19 @@ class BinaryLogicalOperationsParser:
 
 
 # TODO: implement the operations 
-class BinaryLogicalOperationsParser:
 # class BinaryComparisonOperationsParser:
-    def parse(self, pg):        
+    # def parse(self, pg):        
 
-        @pg.production("logicalop : AND")
-        def binary_and(p):
-            return And
+    #     @pg.production("logicalop : AND")
+    #     def binary_and(p):
+    #         return And
         
-        @pg.production("logicalop : OR")
-        def binary_or(p):
-            return Or
+    #     @pg.production("logicalop : OR")
+    #     def binary_or(p):
+    #         return Or
         
-        @pg.production("logicalop : NOT")
-        def binary_not(p):
-            return Not
+    #     @pg.production("logicalop : NOT")
+    #     def binary_not(p):
+    #         return Not
         
 #todo : change to bitwise operations

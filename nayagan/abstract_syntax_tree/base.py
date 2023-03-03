@@ -1,5 +1,5 @@
 from abc import ABC , abstractclassmethod 
-from ..helpers import __vars__
+from helpers import __vars__
 
 class Node(ABC):
     @abstractclassmethod 

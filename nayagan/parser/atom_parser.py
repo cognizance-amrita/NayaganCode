@@ -1,7 +1,7 @@
 from loguru import logger
 
-from ..abstract_syntax_tree.base import Boolean, Number, String, Word
-from ..abstract_syntax_tree.control import FuncWord
+from abstract_syntax_tree.base import Boolean, Number, String, Word
+from abstract_syntax_tree.control import FuncWord
 
 
 class AtomParser:

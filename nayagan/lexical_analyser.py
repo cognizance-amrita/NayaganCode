@@ -21,12 +21,11 @@ class LexicalAnalyser:
         '''
         add tokens to the lexer generator
         '''
-        
         for token in self._tokens:
             self._lg.add(token, r"{}".format(self._tokens[token])) 
 
-        self._lg = self._lg.ignore(r'\s+')
-        self._lg = self._lg.ignore(r"!!.*\n")
+        self._lg.ignore(r'\s+')
+        self._lg.ignore(r"!!.*\n") 
 
     def get_lexer(self):
         '''
