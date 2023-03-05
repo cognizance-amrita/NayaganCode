@@ -30,7 +30,10 @@ class NayaganRunner:
 
         with warnings.catch_warnings():
             warnings.simplefilter("ignore")
-            logger.warning("LineParser supports only a few nayagan features")
+            '''
+            for logging some warnings each time the parser is called
+            '''
+            # logger.warning("LineParser supports only a few nayagan features")
             self.__line_parser = self.init_parser(LineParser) 
 
     def init_parser(self , Parser : ParserBase):

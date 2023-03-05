@@ -1,3 +1,12 @@
 ## Nayagan Code
+Description goes here
 
-https://medium.com/@marcelogdeandrade/writing-your-own-programming-language-and-compiler-with-python-a468970ae6df
+## Languages 
+- Nayagan [Tamil]
+- Nayagan [Telugu]
+- Nayagan [Hindi]
+
+## Our Contributors 
+<p align="center"><a href="https://github.com/cognizance-amrita/NayaganCode/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=cognizance-amrita/NayaganCode" />
+</a></p>

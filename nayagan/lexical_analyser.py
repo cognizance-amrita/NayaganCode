@@ -25,7 +25,10 @@ class LexicalAnalyser:
             self._lg.add(token, r"{}".format(self._tokens[token])) 
 
         self._lg.ignore(r'\s+')
-        self._lg.ignore(r"!!.*\n") 
+        self._lg.ignore(r"!!.*\n")
+
+        # ignore hashtag
+        self._lg.ignore(r"#.*\n")
 
     def get_lexer(self):
         '''

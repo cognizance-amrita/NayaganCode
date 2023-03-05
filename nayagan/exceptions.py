@@ -3,6 +3,5 @@ class ReturnException(Exception):
         super().__init__(msg)
         self.value = value
 
-class BreakException(Exception):
-    print("break exception")
+class BreakException(Exception): 
     pass
