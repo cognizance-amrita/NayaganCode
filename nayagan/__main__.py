@@ -33,6 +33,12 @@ def run(file_path :str , debug: bool = False):
     '''
     runs the nayagan code from the input file 
     '''
+
+    # check if file extension is .nayagan
+    if not file_path.endswith(".ng"):
+        logger.error("Invalid file extension")
+        sys.exit(1)
+
     logger.remove()
     if debug:
         logger.add(sys.stderr, level="DEBUG")

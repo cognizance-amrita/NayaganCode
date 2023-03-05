@@ -48,7 +48,10 @@ class ParserBase:
         add all parsers to the parser generator.
         '''
 
-        for parser in self.parsers:
+        '''
+        We will be checking the statement for each parser.
+        '''
+        for parser in self.parsers: 
             parser.parse(self.pg)
 
         @self.pg.error
